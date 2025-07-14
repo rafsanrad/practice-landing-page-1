@@ -11,6 +11,7 @@
     max-width: 1125px;
     height: 50px;
     margin: 48px 157px 0px;
+    margin-left: 200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -41,4 +42,50 @@
     display: flex;
     gap: 24px;
     color: #707070;
+}
+/* banner section  */
+.banner{
+    height: 455px;
+    width: 1212px;
+    margin: 50px 160px;
+    padding: 40px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FEEAE9;
+    border-radius: 20px;
+}
+.banner-info{
+    width: 550px;
+    height: 320px;
+}
+.banner-title{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+.banner-description{
+    font-size: 16px;
+    color: #4E4E4E;
+    margin-bottom: 15px;
+}
+#banner-price{
+    font-size: 40px;
+    font-weight: 500;
+    color: #FF136F;
+    margin-bottom: 10px;
+}
+.banner-info button{
+    width: 170px;
+    height: 55px;
+    background-color: rgba(255, 88, 155, 1);
+    border: none;
+    margin-top: 10px;
+    padding:  15px 20px;
+    color: white;
+    border-radius: 8px;
+}
+.banner-img{
+    width: 400px;
+    height: 375px;
 }
